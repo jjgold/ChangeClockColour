@@ -3,6 +3,7 @@ package com.jjgold.changeclockcolour;
 /**
  * Created by Jai on 14/02/14.
  */
+import static de.robv.android.xposed.XposedHelpers.findAndHookMethod;
 import de.robv.android.xposed.IXposedHookLoadPackage;
 import de.robv.android.xposed.XposedBridge;
 import de.robv.android.xposed.callbacks.XC_LoadPackage.LoadPackageParam;
